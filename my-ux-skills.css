@@ -1,0 +1,129 @@
+body{
+    font-family: "Inter",sans-serif ;
+    background-color: #000;
+    color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.flexContainer{
+    display: flex;
+}
+
+/* navbar css */
+.header-block{
+    display: flex;
+    align-items: center;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo-text{
+    width: 35%;
+    padding: 10px;
+    text-align: left;
+}
+.logo-text p a{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu{
+    width: 70%;
+    padding: 10px;
+}
+.nav-menu ul{
+    width: 55%;
+    margin-left: auto;
+}
+.nav-menu ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* my ux skills css */
+.mySkills .skillHeading{
+    font-size:25px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.mySkills .singleSkill{
+    text-align: center;
+    width: 33%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.mySkills .singleSkill h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.mySkills .singleSkill img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.mySkills .singleSkill p{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/* footer CSS */
+
+footer{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 600px){
+    .flexContainer{
+        flex-direction: column;
+    }
+    .mySkills .singleSkill{
+        width: 100%;
+    }
+    .header-block, footer{
+        flex-direction: column;
+    }
+    .logo-text{
+        width: 100%;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .logo-text p a{
+        margin: 20px;
+    }
+    .mySkills .skillHeading {
+        margin-top: 50px;
+    }
+    .nav-menu ul{
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        padding: 0px 10px;
+    }
+}
