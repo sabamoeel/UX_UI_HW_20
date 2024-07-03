@@ -1,37 +1,6 @@
-
-*{
-    font-family: "Inter", sans-serif;
-    /* font-size: 62.5%; */
-}
 body {
-    font-family: "Inter", sans-serif;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0px 10px;
     background-color: #000000;
     color: #ffffff;
-    font-size: 62.5%;
-}
-.bg-dark{
-    background-color: #000000 !important;
-}
-.navbar-brand {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.nav-item a {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-left: 15px;
-    text-transform: uppercase;
-
-}
-
-
-.card-body .card-text {
-    font-size: 1.5rem;
-    /* font-weight: 600; */
 }
 
 .navbar-brand,
@@ -58,24 +27,8 @@ body {
     object-fit: cover;
 }
 
-@media (min-width: 1288px) {
-    /* .navbar-nav .col {
-        margin-left: 20%;
-    } */
-    html {
-        font-size: 80%;
-    }
-}
-
 @media (max-width: 767px) {
     .card-body {
         padding-top: 1rem;
     }
-
-    html {
-        font-size: 75%;
-    }
-    /* .navbar-nav .col {
-        margin-left: 0;
-    } */
 }
